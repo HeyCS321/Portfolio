@@ -1,27 +1,38 @@
+const toggleBtn = document.querySelector(".toggle_btn");
+const toggleBtnIcon = document.querySelector(".toggle_btn i");
+const dropDownMenu = document.querySelector(".dropdown_menu");
+const text = document.querySelector(".sec-text");
 
-      const toggleBtn = document.querySelector('.toggle_btn')
-      const toggleBtnIcon = document.querySelector('.toggle_btn i')
-      const dropDownMenu = document.querySelector('.dropdown_menu')
-      const text = document.querySelector('.sec-text');
+// =========Menu Button on mobile resposive========
+toggleBtn.onclick = function () {
+  dropDownMenu.classList.toggle("open");
+  const isOpen = dropDownMenu.classList.contains("open");
 
-      toggleBtn.onclick =function () {
-        dropDownMenu.classList.toggle('open')
-        const isOpen = dropDownMenu.classList.contains('open')
+  toggleBtnIcon.classList = isOpen ? "fa-solid fa-xmark" : "fa-solid fa-bars";
+};
+// =======typed.js===multipleText=======
 
-        toggleBtnIcon.classList = isOpen
-        ? 'fa-solid fa-xmark'
-        : 'fa-solid fa-bars'
-      }
+const typed = new Typed(".multiple-text", {
+  strings: ["Full Stack Web Developer", "MERN Stack Developer"],
+  typeSpeed: 100,
+  backSpeed: 100,
+  backDelay: 1000,
+  loop: true,
+});
 
-      const textLoad = () => {
-        setTimeout(() => {
-          text.textContent = 'Full Stack Web Developer';
-        }, 0);
-        setTimeout(() => {
-          text.textContent = 'MERN Stack Developer';
-        }, 4000);
-      }
+// ========ScrollReveal=====
 
-      textLoad();
-      setInterval(textLoad, 8000);
-    
+ScrollReveal({
+  // reset: true,
+  distance: "80px",
+  duration: 2000,
+  delay: 200,
+});
+
+ScrollReveal().reveal(".home-content, .heading", { origin: "top" });
+ScrollReveal().reveal(
+  ".home-img, .service-container, .portfolio-box, .contact form",
+  { origin: "bottom" }
+);
+ScrollReveal().reveal(".home-content h1, .about-img", { origin: "left" });
+ScrollReveal().reveal(".home-content p, .about-content", { origin: "right" });

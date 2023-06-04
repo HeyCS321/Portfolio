@@ -11,36 +11,49 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
-<!-- Bootstrap Link -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css
-">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css
+"
+    />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./scss/main.css" />
   </head>
+
   <body>
     <!-- header design -->
     <header class="header container-fluid">
       <a href="#" class="logo">CS.</a>
       <nav class="navbar">
         <ul class="links">
-       <li><a href="#home"  class="active">Home</a></li>
-       <li><a href="#about">About</a></li>
-       <li><a href="#services">Services</a></li>
-       <li><a href="#portfolio">Portfolio</a></li>
-       <li><a href="#contact">Contact</a></li>
-      </ul>
-      <div class="toggle_btn">
-        <i class="fa-solid fa-bars"></i>
-      </div>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="toggle_btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
       </nav>
 
       <div class="dropdown_menu">
-        <li><a href="#home"  class="active">Home</a></li>
-       <li><a href="#about">About</a></li>
-       <li><a href="#services">Services</a></li>
-       <li><a href="#portfolio">Portfolio</a></li>
-       <li><a href="#contact">Contact</a></li>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
       </div>
     </header>
 
@@ -49,17 +62,20 @@
       <div class="home-content">
         <h3 class="hlo">Hello, It's Me</h3>
         <h1 class="name">Chandra Sekhar</h1>
-        <!-- <div class="running-text">
+        <div class="running-text">
           <h3>I'm a <span class="multiple-text"></span></h3>
-        </div> -->
-  
-        <div class="multiple-text">
-          <h3 class="text first-text">I'm a <span class="text sec-text"></span></h3>
-          
         </div>
 
+        <!-- <div class="multiple-text">
+          <h3 class="text first-text">
+            I'm a <span class="text sec-text"></span>
+          </h3>
+        </div> -->
+
         <p>
-            I'm a full stack MERN developer, knowledge of both frontend and backend technologies, I can create end-to-end solutions for web applications.!
+          I'm a full stack MERN developer, knowledge of both frontend and
+          backend technologies, I can create end-to-end solutions for web
+          applications.!
         </p>
         <div class="social-media">
           <a
@@ -84,8 +100,14 @@
             ><i class="bx bxl-twitter"></i
           ></a>
         </div>
-        
-        <button class="btn" onclick="window.location.href='https://drive.google.com/file/d/1fwEgZn8nOpvUdEbx3W1CK-3eTYixO-kX/view?usp=share_link','_blank'" target="_blank">Download CV</button>
+
+        <button
+          class="btn"
+          onclick="window.location.href='https://drive.google.com/file/d/1fwEgZn8nOpvUdEbx3W1CK-3eTYixO-kX/view?usp=share_link','_blank'"
+          target="_blank"
+        >
+          Download CV
+        </button>
       </div>
       <div class="home-img">
         <img src="./img/pnggw2.png" class="img-fluid" alt="image-loading" />
@@ -94,14 +116,18 @@
 
     <!-- about section design -->
     <section class="about container-fluid" id="about">
-      <div class="about-img ">
+      <div class="about-img">
         <img src="./img/about.png" class="img-fluid" alt="about-img error" />
       </div>
       <div class="about-content">
         <h2 class="heading">About <span>Me</span></h2>
         <h3>Full Stack Developer!</h3>
         <p>
-            I'm a full stack MERN developer with proficiency in MongoDB, Express, React, and Node.js. I have experience in designing and building web applications end-to-end, from the frontend to the backend. With my knowledge of both frontend and backend technologies, I can create scalable and robust applications that provide a great user experience.
+          I'm a full stack MERN developer with proficiency in MongoDB, Express,
+          React, and Node.js. I have experience in designing and building web
+          applications end-to-end, from the frontend to the backend. With my
+          knowledge of both frontend and backend technologies, I can create
+          scalable and robust applications that provide a great user experience.
         </p>
         <a href="#" class="btn">Read More</a>
       </div>
@@ -112,153 +138,191 @@
       <h2 class="heading">Services</h2>
 
       <div class="service-container container-fluid">
-
-        <div class="row ">
+        <div class="row">
           <div class="col-lg-4 col-sm-6 p-3">
-        <div class="service-box card" >
-          
-          <div class="card-body">
-            <i class="bx bx-code-alt card-img-top"></i>
-          <h3 class="card-title" style="color: #fff;">Frontend</h3>
-          <p class="card-text" style="color: #fff;">
-            "Hello! I'm a frontend developer with experience in HTML, CSS, and JavaScript, as well as React framework. I'm passionate about creating user-friendly interfaces and ensuring responsive design across all devices.
-          </p>
-          <a href="#" class="btn btn-primary">Read More</a>
-        </div>
-        </div>
-</div>
+            <div class="service-box card">
+              <div class="card-body">
+                <i class="bx bx-code-alt card-img-top"></i>
+                <h3 class="card-title" style="color: #fff">Frontend</h3>
+                <p class="card-text" style="color: #fff">
+                  "Hello! I'm a frontend developer with experience in HTML, CSS,
+                  and JavaScript, as well as React framework. I'm passionate
+                  about creating user-friendly interfaces and ensuring
+                  responsive design across all devices.
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
 
-<div class=" col-lg-4 col-sm-6 p-3">
-        <div class="service-box card " >
-          <div class="card-body">
-            <i class='bx bxl-nodejs' ></i>
-          <h3 class="card-title" style="color: #fff;">Beckend</h3>
-          <p class="card-text" style="color: #fff;">
-            "Hello! I'm a backend developer with expertise in Node.js and the Express framework. I have experience building and deploying RESTful APIs and microservices, and am skilled in working with databases such as MongoDB and MySQL
-          </p>
-          <a href="#" class="btn btn-primary">Read More</a>
-        </div>
-        </div></div>
+          <div class="col-lg-4 col-sm-6 p-3">
+            <div class="service-box card">
+              <div class="card-body">
+                <i class="bx bxl-nodejs"></i>
+                <h3 class="card-title" style="color: #fff">Beckend</h3>
+                <p class="card-text" style="color: #fff">
+                  "Hello! I'm a backend developer with expertise in Node.js and
+                  the Express framework. I have experience building and
+                  deploying RESTful APIs and microservices, and am skilled in
+                  working with databases such as MongoDB and MySQL
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
 
-        <div class="col-lg-4 col-sm-12 p-3">
-        <div class="service-box card " >
-
-          <div class="card-body">
-            <i class="bx bxl-mongodb"></i>
-          <h3 class="card-title" style="color: #fff;">Database</h3>
-          <p class="card-text" style="color: #fff;">
-            "Hello! I'm a database developer with expertise in MongoDB, a popular NoSQL database management system. I have experience in designing and implementing data models, optimizing database performance, and managing database security.
-          </p>
-          <a href="#" class="btn btn-primary">Read More</a>
+          <div class="col-lg-4 col-sm-12 p-3">
+            <div class="service-box card">
+              <div class="card-body">
+                <i class="bx bxl-mongodb"></i>
+                <h3 class="card-title" style="color: #fff">Database</h3>
+                <p class="card-text" style="color: #fff">
+                  "Hello! I'm a database developer with expertise in MongoDB, a
+                  popular NoSQL database management system. I have experience in
+                  designing and implementing data models, optimizing database
+                  performance, and managing database security.
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
         </div>
-        </div></div></div>
       </div>
     </section>
 
     <!-- Portfolio section -->
 
     <section class="portfolio container-fluid" id="portfolio">
-
       <h2 class="heading">Latest <span>Project</span></h2>
       <div class="portfolio-container container text-center">
-        <div class="row  row-cols-lg-3 row-cols-sm-2 g-1 ">
-        
+        <div class="row row-cols-lg-3 row-cols-sm-2 g-1">
           <div class="portfolio-box p-0">
-          <div class="col ">
-          <img src="./img/project1.png" class="img-fluid" alt="" />
-          <div class="portfolio-layer">
-            <h4>Myntra Clone</h4>
-            <p>
-              Clone of Myntra develop with help of HTML CSS Bootstrap & Javascript. This is Frontend project 
-            </p>
-            <a href="https://github.com/HeyCS321/Myntra-Clone" target="_blank"><i class="bx bx-link-external"></i></a>
+            <div class="col">
+              <img src="./img/project1.png" class="img-fluid" alt="" />
+              <div class="portfolio-layer">
+                <h4>Myntra Clone</h4>
+                <p>
+                  Clone of Myntra develop with help of HTML CSS Bootstrap &
+                  Javascript. This is Frontend project
+                </p>
+                <a
+                  href="https://github.com/HeyCS321/Myntra-Clone"
+                  target="_blank"
+                  ><i class="bx bx-link-external"></i
+                ></a>
+              </div>
+            </div>
           </div>
-        </div></div>
 
-        <div class="portfolio-box p-0">
-          <div class="col">
-          <img src="./img/project2.png" class="img-fluid" alt="" />
-          <div class="portfolio-layer">
-            <h4>To-Do App</h4>
-            <p>
-              To-Do app, set your daily goal and complete task with cross feature with this web app.
-              This is comes with backend.
-            </p>
-            <a href="https://github.com/HeyCS321/Todo-list" target="_blank"><i class="bx bx-link-external"></i></a>
+          <div class="portfolio-box p-0">
+            <div class="col">
+              <img src="./img/project2.png" class="img-fluid" alt="" />
+              <div class="portfolio-layer">
+                <h4>To-Do App</h4>
+                <p>
+                  To-Do app, set your daily goal and complete task with cross
+                  feature with this web app. This is comes with backend.
+                </p>
+                <a href="https://github.com/HeyCS321/Todo-list" target="_blank"
+                  ><i class="bx bx-link-external"></i
+                ></a>
+              </div>
+            </div>
           </div>
-        </div></div>
 
-        <div class="portfolio-box p-0">
-          <div class="col">
-          <img src="./img/project3.png" class="img-fluid" alt="" />
-          <div class="portfolio-layer">
-            <h4>Daily Journal</h4>
-            <p>
-              Blog site used for post your information to the world via this amazing site. This site is also comes with beckend.
-            </p>
-            <a href="https://github.com/HeyCS321/Daily-Journal" target="_blank"><i class="bx bx-link-external"></i></a>
+          <div class="portfolio-box p-0">
+            <div class="col">
+              <img src="./img/project3.png" class="img-fluid" alt="" />
+              <div class="portfolio-layer">
+                <h4>Daily Journal</h4>
+                <p>
+                  Blog site used for post your information to the world via this
+                  amazing site. This site is also comes with beckend.
+                </p>
+                <a
+                  href="https://github.com/HeyCS321/Daily-Journal"
+                  target="_blank"
+                  ><i class="bx bx-link-external"></i
+                ></a>
+              </div>
+            </div>
           </div>
-        </div></div>
 
-        <div class="portfolio-box p-0">
-          <div class="col">
-          <img src="./img/project4.png" class="img-fluid" alt="" />
-          <div class="portfolio-layer">
-            <h4>Newsletter-Signup Form</h4>
-            <p>
-              Newsletter-Signup form, in this user signed up their info. and all the given info. will be sent to Mailchimp account, so that you can monitor.
-            </p>
-            <a href="https://github.com/HeyCS321/Newsletter-signup" target="_blank"><i class="bx bx-link-external"></i></a>
+          <div class="portfolio-box p-0">
+            <div class="col">
+              <img src="./img/project4.png" class="img-fluid" alt="" />
+              <div class="portfolio-layer">
+                <h4>Newsletter-Signup Form</h4>
+                <p>
+                  Newsletter-Signup form, in this user signed up their info. and
+                  all the given info. will be sent to Mailchimp account, so that
+                  you can monitor.
+                </p>
+                <a
+                  href="https://github.com/HeyCS321/Newsletter-signup"
+                  target="_blank"
+                  ><i class="bx bx-link-external"></i
+                ></a>
+              </div>
+            </div>
           </div>
-        </div></div>
 
-        <div class="portfolio-box p-0">
-          <div class="col">
-          <img src="./img/project5.png" class="img-fluid" alt="" />
-          <div class="portfolio-layer">
-            <h4>Tindog</h4>
-            <p>
-              Dog's tinder site, developed with the help of HTML CSS JS & Bootstrap.
-            </p>
-            <a href="https://heycs321.github.io/Tindog/" target="_blank"><i class="bx bx-link-external"></i></a>
+          <div class="portfolio-box p-0">
+            <div class="col">
+              <img src="./img/project5.png" class="img-fluid" alt="" />
+              <div class="portfolio-layer">
+                <h4>Tindog</h4>
+                <p>
+                  Dog's tinder site, developed with the help of HTML CSS JS &
+                  Bootstrap.
+                </p>
+                <a href="https://heycs321.github.io/Tindog/" target="_blank"
+                  ><i class="bx bx-link-external"></i
+                ></a>
+              </div>
+            </div>
           </div>
-        </div></div>
-
-      </div> </div>
+        </div>
+      </div>
     </section>
 
     <!-- Contact page -->
     <section class="contact container-fluid" id="contact">
-        <h2 class="heading">Contact <span>Me!</span></h2>
+      <h2 class="heading">Contact <span>Me!</span></h2>
 
-        <form action="#" method="POST">
-            <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email Address  ">
-            </div>
-            <div class="input-box">
-                <input type="number" placeholder="Mobile Number">
-                <input type="text" placeholder="Email Subject">
-            </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-            <input type="submit" value="Send Message" class="btn">
-        </form>
+      <form action="#" method="POST">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address  " />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
     </section>
 
-<!-- footer -->
-<footer class="footer container-fluid">
-    <div class="footer-text ">
+    <!-- footer -->
+    <footer class="footer container-fluid">
+      <div class="footer-text">
         <p>Copyright &copy; 2023 by Chandra Sekhar | All Rights Reserved</p>
-    </div>
+      </div>
 
-    <div class="footer-iconTop">
-        <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
-    </div>
-</footer>
+      <div class="footer-iconTop">
+        <a href="#"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
 
-
-
-    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+    <!-- typed.js -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <!-- jquery cdn -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 
@@ -291,8 +355,5 @@
       textLoad();
       setInterval(textLoad, 8000);
     </script> -->
-
   </body>
-   
-   
 </html>
